@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aasia's Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <h1>Aasia's<span><i class="fa-solid fa-laptop"></i></span> Blog</h1>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Blog Posts</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fa-solid fa-bars" id="menu-toggle"></i>
+        </nav>
+    </header>
+
+    <!--SideBar Section-->
+    <section id="sidebar">
+        <div id="side-close">
+            <i id="side-close__icon" class="fa-solid fa-x"></i>
+        </div>
+        <ul id="sidebar-list">
+            <li id="sidebar-list__links"><a href="#home">Home</a></li>
+            <li id="sidebar-list__links"><a href="#projects">Blog Posts</a></li>
+            <li id="sidebar-list__links"><a href="#about">About Me</a></li>
+            <li id="sidebar-list__links"><a href="#contact">Contact</a></li>
+        </ul>
+    </section>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Blog</h1>
+        <p> Sharing my journey as a web developer and more!</p>
+        <div class="input-box">
+            <form action="">
+                <input type="text" class="search-input" placeholder="Find my contents">
+                <button type="submit" class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+
+    <section id="projects">
+        <h2 class="projects-head">Blog Posts</h2>
+        <div class="project-container">
+            <div class="img-link">
+                <img src="./image/img1.jpg" id="clickableImage1" alt="">
+                <b style="margin-top: 20px; color: #FFD700; width: 100%; padding: 5px; text-align: left;">Greenden
+                    E-Commerce Website</b>
+                <article style="text-align: left; padding: 5px;">The Greenden Project is a fully responsive eCommerce
+                    website for selling plants, built using HTML and Tailwind CSS, featuring a clean design and seamless
+                    user experience across desktop and mobile views.</article>
+            </div>
+            <div class="img-link">
+                <img src="./image/img2.jpg" id="clickableImage2" alt="">
+                <b style="margin-top: 20px; color: #FFD700; width: 100%; padding: 5px; text-align: left;">Udemy-Clone
+                    Website</b>
+                <article style="text-align: left; padding: 5px;">I created a Udemy clone using HTML, CSS, and Flexbox,
+                    replicating the design and structure of the popular e-learning platform, showcasing my front-end
+                    development skills in responsive design and layout.</article>
+            </div>
+            <div class="img-link">
+                <img src="./image/img3.jpg" id="clickableImage3" alt="">
+                <b style="margin-top: 20px; color: #FFD700; width: 100%; padding: 5px; text-align: left;">Nostra-Clone
+                    Website</b>
+                <article style="text-align: left; padding: 5px;">I recently built a Nostra clone using HTML, CSS, and
+                    JavaScript. This responsive website features a dynamic product filtering system and a sleek,
+                    user-friendly interface designed for eCommerce.</article>
+            </div>
+            <div class="img-link">
+                <img src="./image/img4.jpg" id="clickableImage4" alt="">
+                <b style="margin-top: 20px; color: #FFD700; width: 100%; padding: 5px; text-align: left;">BookNook
+                    Website</b>
+                <article style="text-align: left; padding: 5px;">The BookNook Website is a project I developed using
+                    HTML, CSS, and JavaScript, allowing users to add, view, and delete book details, providing a simple
+                    interface for managing a personal library collection.</article>
+            </div>
+            <div class="img-link">
+                <img src="./image/img5.jpg" id="clickableImage5" alt="">
+                <b
+                    style="margin-top: 20px; color: #FFD700; width: 100%; padding: 5px; text-align: left;">Subscription-Page</b>
+                <article style="text-align: left; padding: 5px;">I developed a responsive Subscription Page Website
+                    using HTML, CSS, and Flexbox, featuring three subscription options—Free, Premium, and
+                    Standard—designed for courses or tutorials, enhancing my skills in web design and layout
+                    structuring.</article>
+            </div>
+            <div class="img-link">
+                <img src="./image/img6.jpg" id="clickableImage6" alt="">
+                <b style="margin-top: 20px; color: #FFD700; width: 100%; padding: 5px; text-align: left;">Reester
+                    E-Commerce Website</b>
+                <article style="text-align: left; padding: 5px;">The Reester E-Commerce Website is a responsive platform
+                    built using HTML and CSS, designed to showcase food ordering functionality with an intuitive user
+                    interface and seamless navigation.
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h1 class="abt__h1">About <span>Me</span></h1>
+        <p class="abt__para">As a Computer Science graduate with a passion for web development, I have a strong
+            foundation in HTML, CSS, and a growing skill set in JavaScript and Tailwind CSS. Although I’m a fresher in
+            the industry, I've successfully completed 5+ projects that demonstrate my ability to create responsive,
+            visually appealing, and user-friendly websites.
+            <br> My dedication to continuous learning motivates me to expand my expertise, particularly in front-end
+            technologies like React.js, as I embrace new challenges and opportunities in web development."
+        </p>
+        <div class="abt-image">
+            <img src="./image/about.jpg" alt="alternative image" class="img">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2 id="contact-head">Contact Information</h2>
+        <section id="contact">
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email">
+                <label for="message">Message</label>
+                <input type="textarea" id="message" name="message" style="height: 80px;" placeholder="Message">
+                <input type="submit" value="Submit" name="message">
+            </form>
+        </section>
+    </section>
+
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-content">
+            <ul class="social-links">
+                <li><i class="fa-brands fa-linkedin" id="linkedin"></i></li>
+                <li><i class="fa-brands fa-github" id="github"></i></li>
+            </ul>
+            <p>Contact: <a href="mailto:aasia3017@gmail.com">aasia3017@gmail.com</a></p>
+            <p>&copy; 2024 Aasia A. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
